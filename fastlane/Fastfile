@@ -16,7 +16,7 @@
 default_platform(:ios)
 
 class Constants
-  XCODE_VERSION = "~> 12.5.1"
+  XCODE_VERSION = "~> 12.4"
   PROJECT = "Log/Log.xcodeproj"
   SCHEME = "Log"
   SWIFTLINT_PATH = "./tools/portable_swiftlint/swiftlint"
@@ -51,8 +51,8 @@ platform :ios do
     scan(
       project: Constants::PROJECT,
       scheme: Constants::SCHEME,
-      device: Constants::TEST_DEVICE,
-      deployment_target_version: Constants::TEST_IOS_VERSION,
+      # device: Constants::TEST_DEVICE,
+      # deployment_target_version: Constants::TEST_IOS_VERSION,
       prelaunch_simulator: true,
       clean: true
     )
