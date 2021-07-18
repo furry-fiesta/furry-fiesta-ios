@@ -132,6 +132,23 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXLegacyTarget section */
+		C465A18F26A428FE0082F116 /* Swiftlint */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "";
+			buildConfigurationList = C465A19226A428FE0082F116 /* Build configuration list for PBXLegacyTarget "Swiftlint" */;
+			buildPhases = (
+			);
+			buildToolPath = ./tools/portable_swiftlint/swiftlint;
+			buildWorkingDirectory = ../;
+			dependencies = (
+			);
+			name = Swiftlint;
+			passBuildSettingsInEnvironment = 1;
+			productName = Swiftlint;
+		};
+/* End PBXLegacyTarget section */
+
 /* Begin PBXNativeTarget section */
 		C4659FF326A41E910082F116 /* Log */ = {
 			isa = PBXNativeTarget;
@@ -206,6 +223,9 @@
 						CreatedOnToolsVersion = 12.5.1;
 						TestTargetID = C4659FF326A41E910082F116;
 					};
+					C465A18F26A428FE0082F116 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
 				};
 			};
 			buildConfigurationList = C4659FEF26A41E910082F116 /* Build configuration list for PBXProject "Log" */;
@@ -224,6 +244,7 @@
 				C4659FF326A41E910082F116 /* Log */,
 				C465A00426A41E970082F116 /* LogTests */,
 				C465A00F26A41E970082F116 /* LogUITests */,
+				C465A18F26A428FE0082F116 /* Swiftlint */,
 			);
 		};
 /* End PBXProject section */
@@ -540,6 +561,20 @@
 			};
 			name = Release;
 		};
+		C465A19026A428FE0082F116 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+			};
+			name = Debug;
+		};
+		C465A19126A428FE0082F116 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -575,6 +610,15 @@
 			buildConfigurations = (
 				C465A02026A41E970082F116 /* Debug */,
 				C465A02126A41E970082F116 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C465A19226A428FE0082F116 /* Build configuration list for PBXLegacyTarget "Swiftlint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C465A19026A428FE0082F116 /* Debug */,
+				C465A19126A428FE0082F116 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
