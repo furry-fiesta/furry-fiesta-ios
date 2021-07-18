@@ -18,11 +18,29 @@ default_platform(:ios)
 class Constants
   PROJECT = "Log/Log.xcodeproj"
   SCHEME = "Log"
+  SWIFTLINT_PATH = "./tools/portable_swiftlint/swiftlint"
+  SWIFTLINT_CONFIG_PATH = "Log/.swiftlint.yml"
   TEST_DEVICE = "iPhone 12 Pro"
   TEST_IOS_VERSION = "14.5"
 end
 
 platform :ios do
+  desc "Lint project"
+  lane :lint_project do |options|
+    reporter = options[:reporter] || 'json'
+
+    swiftlint(
+      mode: :lint,
+      executable: Constants::SWIFTLINT_PATH,
+      path: ".",
+      output_file: "swiftlint.result.#{reporter}",
+      reporter: reporter,
+      config_file: Constants::SWIFTLINT_CONFIG_PATH,
+      ignore_exit_status: false,
+      strict: true # Fail on warnings
+    )
+  end
+
   desc "Run Log project's tests"
   lane :run_project_tests do
     scan(

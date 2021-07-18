@@ -1,0 +1,4 @@
+included:
+  - Log
+  - LogTests
+  - LogUITests
