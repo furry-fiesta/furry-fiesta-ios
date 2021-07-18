@@ -16,6 +16,7 @@
 default_platform(:ios)
 
 class Constants
+  XCODE_VERSION = "~> 12.5.1"
   PROJECT = "Log/Log.xcodeproj"
   SCHEME = "Log"
   SWIFTLINT_PATH = "./tools/portable_swiftlint/swiftlint"
@@ -25,6 +26,10 @@ class Constants
 end
 
 platform :ios do
+  before_all do
+    xcversion(version: Constants::XCODE_VERSION)
+  end
+
   desc "Lint project"
   lane :lint_project do |options|
     reporter = options[:reporter] || 'json'
