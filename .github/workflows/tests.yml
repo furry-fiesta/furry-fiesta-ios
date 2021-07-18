@@ -1,0 +1,34 @@
+name: Run Tests
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    types: [opened, synchronize]
+
+jobs:
+  lint-and-test:
+    name: Lint and test the project
+    runs-on: macos-10.15
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Load and Install Bundle Cache
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 2.6
+          bundler-cache: true
+
+      - name: Run Swiftlint
+        id: swiftlintRun
+        run: bundle exec fastlane lint_project reporter:github-actions-logging
+
+      - name: Publish Swiftlint result
+        if: failure() && steps.swiftlintRun.outcome == 'failure'
+        run: cat swiftlint.result.github-actions-logging
+
+      - name: Run Tests
+        run: bundle exec fastlane run_project_tests
