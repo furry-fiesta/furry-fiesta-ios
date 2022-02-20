@@ -155,6 +155,23 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXLegacyTarget section */
+		E25E255727C248BB00A0CCDA /* Lint */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "";
+			buildConfigurationList = E25E255827C248BB00A0CCDA /* Build configuration list for PBXLegacyTarget "Lint" */;
+			buildPhases = (
+			);
+			buildToolPath = ../scripts/lint.sh;
+			buildWorkingDirectory = "";
+			dependencies = (
+			);
+			name = Lint;
+			passBuildSettingsInEnvironment = 1;
+			productName = Lint;
+		};
+/* End PBXLegacyTarget section */
+
 /* Begin PBXNativeTarget section */
 		E25E251E27C23E1E00A0CCDA /* Log (iOS) */ = {
 			isa = PBXNativeTarget;
@@ -250,6 +267,9 @@
 						CreatedOnToolsVersion = 13.2.1;
 						TestTargetID = E25E252427C23E1E00A0CCDA;
 					};
+					E25E255727C248BB00A0CCDA = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
 				};
 			};
 			buildConfigurationList = E25E251627C23E1D00A0CCDA /* Build configuration list for PBXProject "Log" */;
@@ -269,6 +289,7 @@
 				E25E252427C23E1E00A0CCDA /* Log (macOS) */,
 				E25E252B27C23E1E00A0CCDA /* Tests iOS */,
 				E25E253727C23E1E00A0CCDA /* Tests macOS */,
+				E25E255727C248BB00A0CCDA /* Lint */,
 			);
 		};
 /* End PBXProject section */
@@ -670,6 +691,18 @@
 			};
 			name = Release;
 		};
+		E25E255927C248BB00A0CCDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		E25E255A27C248BB00A0CCDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -714,6 +747,15 @@
 			buildConfigurations = (
 				E25E255227C23E1E00A0CCDA /* Debug */,
 				E25E255327C23E1E00A0CCDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E25E255827C248BB00A0CCDA /* Build configuration list for PBXLegacyTarget "Lint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E25E255927C248BB00A0CCDA /* Debug */,
+				E25E255A27C248BB00A0CCDA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
