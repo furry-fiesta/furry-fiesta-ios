@@ -4,3 +4,102 @@ analyzer_rules:
   - unused_declaration
   - unused_import
 opt_in_rules:
+  - anonymous_argument_in_multiline_closure
+  - anyobject_protocol
+  - array_init
+  - balanced_xctest_lifecycle
+  - capture_variable
+  - closure_end_indentation
+  - closure_spacing
+  - collection_alignment
+  - contains_over_filter_count
+  - contains_over_filter_is_empty
+  - contains_over_first_not_nil
+  - contains_over_range_nil_comparison
+  - convenience_type
+  - discouraged_assert
+  - discouraged_none_name
+  - discouraged_object_literal
+  - discouraged_optional_boolean
+  - discouraged_optional_collection
+  - empty_collection_literal
+  - empty_count
+  - empty_string
+  - empty_xctest_method
+  - enum_case_associated_values_count
+  - extension_access_modifier
+  - fatal_error_message
+  - file_name_no_space
+  - file_types_order
+  - first_where
+  - flatmap_over_map_reduce
+  - force_unwrapping
+  - identical_operands
+  - implicit_return
+  - implicitly_unwrapped_optional
+  - indentation_width
+  - joined_default_parameter
+  - last_where
+  - legacy_objc_type
+  - legacy_random
+  - literal_expression_end_indentation
+  - lower_acl_than_parent
+  # This should be opted in once we're in a shape where we can accept open source contributions
+  # - missing_docs
+  - modifier_order
+  - multiline_arguments
+  - multiline_arguments_brackets
+  - multiline_literal_brackets
+  - multiline_parameters
+  - multiline_parameters_brackets
+  - multiline_function_chains
+  - number_separator
+  - operator_usage_whitespace
+  - optional_enum_case_matching
+  - overridden_super_call
+  - override_in_extension
+  - pattern_matching_keywords
+  - prefer_self_type_over_type_of_self
+  - prefer_zero_over_explicit_init
+  - prefixed_toplevel_constant
+  - private_subject
+  - prohibited_interface_builder
+  - prohibited_super_call
+  - raw_value_for_camel_cased_codable_enum
+  - reduce_into
+  - redundant_nil_coalescing
+  - single_test_class
+  - sorted_first_last
+  - sorted_imports
+  - static_operator
+  - switch_case_on_newline
+  - test_case_accessibility
+  - toggle_bool
+  - trailing_closure
+  - type_contents_order
+  - unavailable_function
+  - unneeded_parentheses_in_closure_argument
+  - untyped_error_in_catch
+  - unowned_variable_capture 
+  - unused_import
+  - unused_declaration
+  - vertical_parameter_alignment_on_call
+  - vertical_whitespace_closing_braces
+  - vertical_whitespace_opening_braces
+  - weak_delegate
+  - xct_specific_matcher
+  - yoda_condition
+  
+large_tuple:
+  - 5 # warning
+  - 5 # error
+enum_case_associated_values_count:
+  - 5 # warning
+  - 5 # error
+line_length:
+  - 120 # warning
+  - 120 # error
+nesting:
+  type_level:
+    warning: 2
+    error: 2
