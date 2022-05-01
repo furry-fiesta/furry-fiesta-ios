@@ -30,4 +30,4 @@ jobs:
         run: mint bootstrap
 
       - name: Run Swiftlint
-        run: ./scripts/lint.sh
+        run: mint run swiftlint lint --reporter github-actions-logging
