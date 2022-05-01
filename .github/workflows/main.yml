@@ -1,0 +1,15 @@
+name: Main Workflow
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+jobs:
+  main:
+    name: Main Job
+    runs-on: macos-12
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
