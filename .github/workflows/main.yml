@@ -14,10 +14,19 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
 
+      - name: Cache Mint packages
+        id: mint-cache-v2
+        uses: actions/cache@v3
+        with:
+          path: ~/.mint
+          key: ${{ runner.os }}-mint-${{ hashFiles('Mintfile') }}
+          restore-keys: ${{ runner.os }}-mint-
+
       - name: Install Mint
         run: brew install mint
 
       - name: Install Mint Packages
+        if: steps.mint-cache-v2.outputs.cache-hit != 'true'
         run: mint bootstrap
 
       - name: Run Swiftlint
