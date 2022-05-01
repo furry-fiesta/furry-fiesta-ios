@@ -29,5 +29,8 @@ jobs:
         if: steps.mint-cache-v2.outputs.cache-hit != 'true'
         run: mint bootstrap
 
+      - name: Run Swiftformat linter
+        run: mint run swiftformat . --lint
+
       - name: Run Swiftlint
         run: mint run swiftlint lint --reporter github-actions-logging
