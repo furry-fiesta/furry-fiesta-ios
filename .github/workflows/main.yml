@@ -19,3 +19,6 @@ jobs:
 
       - name: Install Mint Packages
         run: mint bootstrap
+
+      - name: Run Swiftlint
+        run: ./scripts/lint.sh
