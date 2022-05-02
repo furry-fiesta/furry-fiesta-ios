@@ -162,8 +162,8 @@
 			buildConfigurationList = E25E255827C248BB00A0CCDA /* Build configuration list for PBXLegacyTarget "Lint" */;
 			buildPhases = (
 			);
-			buildToolPath = ../scripts/lint.sh;
-			buildWorkingDirectory = "";
+			buildToolPath = ./scripts/lint.sh;
+			buildWorkingDirectory = ..;
 			dependencies = (
 			);
 			name = Lint;
