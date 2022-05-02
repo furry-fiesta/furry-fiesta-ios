@@ -5,7 +5,8 @@ opt_in_rules:
   - anonymous_argument_in_multiline_closure
   - anyobject_protocol
   - array_init
-  - balanced_xctest_lifecycle
+  # We could have a setup even if a teardown does not make sense and the other way around
+  # - balanced_xctest_lifecycle
   - capture_variable
   - closure_end_indentation
   - closure_spacing
