@@ -1,5 +1,5 @@
 //
-//  Tests_macOSLaunchTests.swift
+//  LogMACOSLaunchTests.swift
 //  Tests macOS
 //
 //  Created by Daniel Tombor on 20/02/2022.
@@ -7,12 +7,14 @@
 
 import XCTest
 
-class Tests_macOSLaunchTests: XCTestCase {
+class LogMACOSLaunchTests: XCTestCase {
+    // swiftlint:disable:next empty_xctest_method
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true
     }
 
     override func setUpWithError() throws {
+        try super.setUpWithError()
         continueAfterFailure = false
     }
 
