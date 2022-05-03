@@ -1,3 +1,4 @@
+<<<<<<< HEAD:Apps/Log/Tests iOS/LogIOSUITests.swift
 //
 //  LogIOSUITests.swift
 //  Tests iOS
@@ -5,6 +6,8 @@
 //  Created by Daniel Tombor on 20/02/2022.
 //
 
+=======
+>>>>>>> 2541e78 (Create Nest workspace):Apps/Log/Tests iOS/Tests_iOS.swift
 import XCTest
 
 class LogIOSUITests: XCTestCase {
