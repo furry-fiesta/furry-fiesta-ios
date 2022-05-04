@@ -1,10 +1,3 @@
-//
-//  LogMACOSLaunchTests.swift
-//  Tests macOS
-//
-//  Created by Daniel Tombor on 20/02/2022.
-//
-
 import XCTest
 
 class LogMACOSLaunchTests: XCTestCase {

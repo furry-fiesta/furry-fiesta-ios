@@ -9,10 +9,10 @@
       </FileRef>
    </Group>
    <Group
-      location = "group:Log/Packages"
+      location = "group:Packages"
       name = "Packages">
       <FileRef
-         location = "group:../../Packages/Book">
+         location = "group:Book">
       </FileRef>
    </Group>
 </Workspace>

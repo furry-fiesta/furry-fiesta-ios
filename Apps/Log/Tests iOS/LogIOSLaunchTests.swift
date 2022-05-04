@@ -1,13 +1,3 @@
-<<<<<<< HEAD:Apps/Log/Tests iOS/LogIOSLaunchTests.swift
-//
-//  LogIOSLaunchTests.swift
-//  Tests iOS
-//
-//  Created by Daniel Tombor on 20/02/2022.
-//
-
-=======
->>>>>>> 2541e78 (Create Nest workspace):Apps/Log/Tests iOS/Tests_iOSLaunchTests.swift
 import XCTest
 
 class LogIOSLaunchTests: XCTestCase {
