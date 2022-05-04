@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E25E253127C23E1E00A0CCDA /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25E253027C23E1E00A0CCDA /* Tests_iOS.swift */; };
-		E25E253327C23E1E00A0CCDA /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25E253227C23E1E00A0CCDA /* Tests_iOSLaunchTests.swift */; };
-		E25E253D27C23E1E00A0CCDA /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25E253C27C23E1E00A0CCDA /* Tests_macOS.swift */; };
-		E25E253F27C23E1E00A0CCDA /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25E253E27C23E1E00A0CCDA /* Tests_macOSLaunchTests.swift */; };
+		E25E253127C23E1E00A0CCDA /* LogIOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25E253027C23E1E00A0CCDA /* LogIOSUITests.swift */; };
+		E25E253327C23E1E00A0CCDA /* LogIOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25E253227C23E1E00A0CCDA /* LogIOSLaunchTests.swift */; };
+		E25E253D27C23E1E00A0CCDA /* LogMACOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25E253C27C23E1E00A0CCDA /* LogMACOSUITests.swift */; };
+		E25E253F27C23E1E00A0CCDA /* LogMACOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25E253E27C23E1E00A0CCDA /* LogMACOSLaunchTests.swift */; };
 		E25E254027C23E1E00A0CCDA /* LogApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25E251827C23E1D00A0CCDA /* LogApp.swift */; };
 		E25E254127C23E1E00A0CCDA /* LogApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25E251827C23E1D00A0CCDA /* LogApp.swift */; };
 		E25E254227C23E1E00A0CCDA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25E251927C23E1D00A0CCDA /* ContentView.swift */; };
@@ -44,11 +44,11 @@
 		E25E252527C23E1E00A0CCDA /* Log.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Log.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E25E252727C23E1E00A0CCDA /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		E25E252C27C23E1E00A0CCDA /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E25E253027C23E1E00A0CCDA /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
-		E25E253227C23E1E00A0CCDA /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
+		E25E253027C23E1E00A0CCDA /* LogIOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogIOSUITests.swift; sourceTree = "<group>"; };
+		E25E253227C23E1E00A0CCDA /* LogIOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogIOSLaunchTests.swift; sourceTree = "<group>"; };
 		E25E253827C23E1E00A0CCDA /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E25E253C27C23E1E00A0CCDA /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
-		E25E253E27C23E1E00A0CCDA /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		E25E253C27C23E1E00A0CCDA /* LogMACOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogMACOSUITests.swift; sourceTree = "<group>"; };
+		E25E253E27C23E1E00A0CCDA /* LogMACOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogMACOSLaunchTests.swift; sourceTree = "<group>"; };
 		E25E255427C23FF500A0CCDA /* iOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOS-Info.plist"; sourceTree = "<group>"; };
 		E25E255627C2415200A0CCDA /* macOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "macOS-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -130,8 +130,8 @@
 		E25E252F27C23E1E00A0CCDA /* Tests iOS */ = {
 			isa = PBXGroup;
 			children = (
-				E25E253027C23E1E00A0CCDA /* Tests_iOS.swift */,
-				E25E253227C23E1E00A0CCDA /* Tests_iOSLaunchTests.swift */,
+				E25E253027C23E1E00A0CCDA /* LogIOSUITests.swift */,
+				E25E253227C23E1E00A0CCDA /* LogIOSLaunchTests.swift */,
 			);
 			path = "Tests iOS";
 			sourceTree = "<group>";
@@ -139,8 +139,8 @@
 		E25E253B27C23E1E00A0CCDA /* Tests macOS */ = {
 			isa = PBXGroup;
 			children = (
-				E25E253C27C23E1E00A0CCDA /* Tests_macOS.swift */,
-				E25E253E27C23E1E00A0CCDA /* Tests_macOSLaunchTests.swift */,
+				E25E253C27C23E1E00A0CCDA /* LogMACOSUITests.swift */,
+				E25E253E27C23E1E00A0CCDA /* LogMACOSLaunchTests.swift */,
 			);
 			path = "Tests macOS";
 			sourceTree = "<group>";
@@ -162,8 +162,8 @@
 			buildConfigurationList = E25E255827C248BB00A0CCDA /* Build configuration list for PBXLegacyTarget "Lint" */;
 			buildPhases = (
 			);
-			buildToolPath = ../scripts/lint.sh;
-			buildWorkingDirectory = "";
+			buildToolPath = ./scripts/lint.sh;
+			buildWorkingDirectory = ..;
 			dependencies = (
 			);
 			name = Lint;
@@ -251,7 +251,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1320;
-				LastUpgradeCheck = 1320;
+				LastUpgradeCheck = 1330;
 				TargetAttributes = {
 					E25E251E27C23E1E00A0CCDA = {
 						CreatedOnToolsVersion = 13.2.1;
@@ -350,8 +350,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E25E253327C23E1E00A0CCDA /* Tests_iOSLaunchTests.swift in Sources */,
-				E25E253127C23E1E00A0CCDA /* Tests_iOS.swift in Sources */,
+				E25E253327C23E1E00A0CCDA /* LogIOSLaunchTests.swift in Sources */,
+				E25E253127C23E1E00A0CCDA /* LogIOSUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,8 +359,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E25E253F27C23E1E00A0CCDA /* Tests_macOSLaunchTests.swift in Sources */,
-				E25E253D27C23E1E00A0CCDA /* Tests_macOS.swift in Sources */,
+				E25E253F27C23E1E00A0CCDA /* LogMACOSLaunchTests.swift in Sources */,
+				E25E253D27C23E1E00A0CCDA /* LogMACOSUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
