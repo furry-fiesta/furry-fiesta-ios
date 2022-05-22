@@ -60,7 +60,8 @@ opt_in_rules:
   - pattern_matching_keywords
   - prefer_self_type_over_type_of_self
   - prefer_zero_over_explicit_init
-  - prefixed_toplevel_constant
+  # Swift Package descriptions are "top level constants".
+  # - prefixed_toplevel_constant
   - private_subject
   - prohibited_interface_builder
   - prohibited_super_call
@@ -102,3 +103,5 @@ nesting:
   type_level:
     warning: 2
     error: 2
+trailing_comma:
+  mandatory_comma: true

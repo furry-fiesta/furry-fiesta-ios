@@ -1,17 +1,9 @@
-//
-//  LogMACOSUITests.swift
-//  Tests macOS
-//
-//  Created by Daniel Tombor on 20/02/2022.
-//
-
 import XCTest
 
-class LogMACOSUITests: XCTestCase {
+class LogIOSUITests: XCTestCase {
     override func setUpWithError() throws {
         try super.setUpWithError()
 
-        // In UI tests it is usually best to stop immediately when a failure occurs.
         continueAfterFailure = false
     }
 

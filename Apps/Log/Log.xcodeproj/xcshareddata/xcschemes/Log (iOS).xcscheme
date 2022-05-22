@@ -28,9 +28,23 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E25E252427C23E1E00A0CCDA"
+               BlueprintIdentifier = "E25E251E27C23E1E00A0CCDA"
                BuildableName = "Log.app"
-               BlueprintName = "Log (macOS)"
+               BlueprintName = "Log (iOS)"
+               ReferencedContainer = "container:Log.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "NO"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "E25E252B27C23E1E00A0CCDA"
+               BuildableName = "Tests iOS.xctest"
+               BlueprintName = "Tests iOS"
                ReferencedContainer = "container:Log.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -40,15 +54,26 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      shouldUseLaunchSchemeArgsEnv = "YES">
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      codeCoverageEnabled = "YES"
+      onlyGenerateCoverageForSpecifiedTargets = "YES">
+      <CodeCoverageTargets>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "E25E251E27C23E1E00A0CCDA"
+            BuildableName = "Log.app"
+            BlueprintName = "Log (iOS)"
+            ReferencedContainer = "container:Log.xcodeproj">
+         </BuildableReference>
+      </CodeCoverageTargets>
       <Testables>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E25E253727C23E1E00A0CCDA"
-               BuildableName = "Tests macOS.xctest"
-               BlueprintName = "Tests macOS"
+               BlueprintIdentifier = "E25E252B27C23E1E00A0CCDA"
+               BuildableName = "Tests iOS.xctest"
+               BlueprintName = "Tests iOS"
                ReferencedContainer = "container:Log.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -68,9 +93,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E25E252427C23E1E00A0CCDA"
+            BlueprintIdentifier = "E25E251E27C23E1E00A0CCDA"
             BuildableName = "Log.app"
-            BlueprintName = "Log (macOS)"
+            BlueprintName = "Log (iOS)"
             ReferencedContainer = "container:Log.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -85,9 +110,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E25E252427C23E1E00A0CCDA"
+            BlueprintIdentifier = "E25E251E27C23E1E00A0CCDA"
             BuildableName = "Log.app"
-            BlueprintName = "Log (macOS)"
+            BlueprintName = "Log (iOS)"
             ReferencedContainer = "container:Log.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
