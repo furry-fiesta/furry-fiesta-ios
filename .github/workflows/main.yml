@@ -34,3 +34,21 @@ jobs:
 
       - name: Run Swiftlint
         run: mint run swiftlint lint --reporter github-actions-logging
+
+      - name: Run iOS Tests
+        run: |
+          xcodebuild \
+          -workspace Nest.xcworkspace \
+          -scheme 'Log (iOS)' \
+          -sdk iphonesimulator \
+          -destination 'platform=iOS Simulator,name=iPhone 13,OS=15.5' \
+          test \
+          | mint run xcbeautify
+
+      - name: Run macOS Tests
+        run: |
+          xcodebuild \
+          -workspace Nest.xcworkspace \
+          -scheme 'Log (macOS)' \
+          test \
+          | mint run xcbeautify
