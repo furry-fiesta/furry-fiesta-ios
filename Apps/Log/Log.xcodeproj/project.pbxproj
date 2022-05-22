@@ -35,8 +35,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C4A4E464283A9E16001CA060 /* Log-iOS.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Log-iOS.xctestplan"; sourceTree = "<group>"; };
 		C4A4E465283A9E65001CA060 /* LogIOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogIOSTests.swift; sourceTree = "<group>"; };
 		C4A4E467283A9E83001CA060 /* LogMACOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogMACOSTests.swift; sourceTree = "<group>"; };
+		C4A4E469283A9EAF001CA060 /* Log-macOS.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Log-macOS.xctestplan"; sourceTree = "<group>"; };
 		E25E251827C23E1D00A0CCDA /* LogApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogApp.swift; sourceTree = "<group>"; };
 		E25E251927C23E1D00A0CCDA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E25E251A27C23E1E00A0CCDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -134,6 +136,7 @@
 		E25E252F27C23E1E00A0CCDA /* Tests iOS */ = {
 			isa = PBXGroup;
 			children = (
+				C4A4E464283A9E16001CA060 /* Log-iOS.xctestplan */,
 				C4A4E465283A9E65001CA060 /* LogIOSTests.swift */,
 			);
 			path = "Tests iOS";
@@ -142,6 +145,7 @@
 		E25E253B27C23E1E00A0CCDA /* Tests macOS */ = {
 			isa = PBXGroup;
 			children = (
+				C4A4E469283A9EAF001CA060 /* Log-macOS.xctestplan */,
 				C4A4E467283A9E83001CA060 /* LogMACOSTests.swift */,
 			);
 			path = "Tests macOS";

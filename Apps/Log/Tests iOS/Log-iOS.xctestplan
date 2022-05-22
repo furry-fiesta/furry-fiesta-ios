@@ -1,0 +1,44 @@
+{
+  "configurations" : [
+    {
+      "id" : "0D0B75BA-7CDF-4A89-B68C-2012FAEBF180",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : {
+      "targets" : [
+        {
+          "containerPath" : "container:Log.xcodeproj",
+          "identifier" : "E25E251E27C23E1E00A0CCDA",
+          "name" : "Log (iOS)"
+        }
+      ]
+    },
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:Log.xcodeproj",
+      "identifier" : "E25E251E27C23E1E00A0CCDA",
+      "name" : "Log (iOS)"
+    }
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:Log.xcodeproj",
+        "identifier" : "E25E252B27C23E1E00A0CCDA",
+        "name" : "Tests iOS"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:..\/..\/Packages\/Book",
+        "identifier" : "BookTests",
+        "name" : "BookTests"
+      }
+    }
+  ],
+  "version" : 1
+}
