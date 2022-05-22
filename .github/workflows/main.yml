@@ -45,10 +45,12 @@ jobs:
           test \
           | mint run xcbeautify
 
-      - name: Run macOS Tests
+      - name: Build macOS Tests
+        # Not running the macOS tests as they require signing. Without credentials it would throw the following error:
+        # ❌ error: No signing certificate "Mac Development" found: No "Mac Development" signing certificate matching team ID "45WDCQN3U5" with a private key was found. (in target 'Tests macOS' from project 'Log')
         run: |
           xcodebuild \
           -workspace Nest.xcworkspace \
           -scheme 'Log (macOS)' \
-          test \
+          build-for-testing \
           | mint run xcbeautify
