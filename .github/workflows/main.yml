@@ -45,8 +45,7 @@ jobs:
           -scheme 'Log (iOS)' \
           -sdk iphonesimulator \
           -destination 'platform=iOS Simulator,name=iPhone 13,OS=15.5' \
-          test \
-          | mint run xcbeautify
+          test
 
       - name: Build macOS Tests
         # Not running the macOS tests as they require signing. Without credentials it would throw the following error:
