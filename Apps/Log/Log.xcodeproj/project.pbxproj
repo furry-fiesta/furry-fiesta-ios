@@ -35,6 +35,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C4A4E44E283A94C2001CA060 /* Log-(iOS)-Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Log-(iOS)-Release.xcconfig"; sourceTree = "<group>"; };
+		C4A4E44F283A94C2001CA060 /* Log-(iOS)-Shared.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Log-(iOS)-Shared.xcconfig"; sourceTree = "<group>"; };
+		C4A4E450283A94C2001CA060 /* Lint-Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Lint-Debug.xcconfig"; sourceTree = "<group>"; };
+		C4A4E451283A94C2001CA060 /* Tests-iOS-Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Tests-iOS-Release.xcconfig"; sourceTree = "<group>"; };
+		C4A4E452283A94C2001CA060 /* Tests-macOS-Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Tests-macOS-Release.xcconfig"; sourceTree = "<group>"; };
+		C4A4E453283A94C2001CA060 /* Project-Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Project-Release.xcconfig"; sourceTree = "<group>"; };
+		C4A4E454283A94C2001CA060 /* Tests-macOS-Shared.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Tests-macOS-Shared.xcconfig"; sourceTree = "<group>"; };
+		C4A4E455283A94C2001CA060 /* Log-(macOS)-Shared.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Log-(macOS)-Shared.xcconfig"; sourceTree = "<group>"; };
+		C4A4E456283A94C2001CA060 /* Log-(iOS)-Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Log-(iOS)-Debug.xcconfig"; sourceTree = "<group>"; };
+		C4A4E457283A94C2001CA060 /* Tests-iOS-Shared.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Tests-iOS-Shared.xcconfig"; sourceTree = "<group>"; };
+		C4A4E458283A94C2001CA060 /* Project-Shared.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Project-Shared.xcconfig"; sourceTree = "<group>"; };
+		C4A4E459283A94C2001CA060 /* Tests-iOS-Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Tests-iOS-Debug.xcconfig"; sourceTree = "<group>"; };
+		C4A4E45A283A94C2001CA060 /* Log-(macOS)-Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Log-(macOS)-Release.xcconfig"; sourceTree = "<group>"; };
+		C4A4E45B283A94C2001CA060 /* Lint-Shared.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Lint-Shared.xcconfig"; sourceTree = "<group>"; };
+		C4A4E45C283A94C2001CA060 /* Lint-Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Lint-Release.xcconfig"; sourceTree = "<group>"; };
+		C4A4E45D283A94C2001CA060 /* Log-(macOS)-Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Log-(macOS)-Debug.xcconfig"; sourceTree = "<group>"; };
+		C4A4E45E283A94C2001CA060 /* Project-Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Project-Debug.xcconfig"; sourceTree = "<group>"; };
+		C4A4E45F283A94C2001CA060 /* Tests-macOS-Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Tests-macOS-Debug.xcconfig"; sourceTree = "<group>"; };
 		C4A4E464283A9E16001CA060 /* Log-iOS.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Log-iOS.xctestplan"; sourceTree = "<group>"; };
 		C4A4E465283A9E65001CA060 /* LogIOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogIOSTests.swift; sourceTree = "<group>"; };
 		C4A4E467283A9E83001CA060 /* LogMACOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogMACOSTests.swift; sourceTree = "<group>"; };
@@ -83,6 +101,63 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C4A4E44D283A94C2001CA060 /* xcconfigs */ = {
+			isa = PBXGroup;
+			children = (
+				C4A4E461283A9545001CA060 /* Lint */,
+				C4A4E460283A953B001CA060 /* Log */,
+				C4A4E462283A954F001CA060 /* Project */,
+				C4A4E463283A9557001CA060 /* Tests */,
+			);
+			path = xcconfigs;
+			sourceTree = "<group>";
+		};
+		C4A4E460283A953B001CA060 /* Log */ = {
+			isa = PBXGroup;
+			children = (
+				C4A4E456283A94C2001CA060 /* Log-(iOS)-Debug.xcconfig */,
+				C4A4E44E283A94C2001CA060 /* Log-(iOS)-Release.xcconfig */,
+				C4A4E44F283A94C2001CA060 /* Log-(iOS)-Shared.xcconfig */,
+				C4A4E45D283A94C2001CA060 /* Log-(macOS)-Debug.xcconfig */,
+				C4A4E45A283A94C2001CA060 /* Log-(macOS)-Release.xcconfig */,
+				C4A4E455283A94C2001CA060 /* Log-(macOS)-Shared.xcconfig */,
+			);
+			path = Log;
+			sourceTree = "<group>";
+		};
+		C4A4E461283A9545001CA060 /* Lint */ = {
+			isa = PBXGroup;
+			children = (
+				C4A4E450283A94C2001CA060 /* Lint-Debug.xcconfig */,
+				C4A4E45C283A94C2001CA060 /* Lint-Release.xcconfig */,
+				C4A4E45B283A94C2001CA060 /* Lint-Shared.xcconfig */,
+			);
+			path = Lint;
+			sourceTree = "<group>";
+		};
+		C4A4E462283A954F001CA060 /* Project */ = {
+			isa = PBXGroup;
+			children = (
+				C4A4E45E283A94C2001CA060 /* Project-Debug.xcconfig */,
+				C4A4E453283A94C2001CA060 /* Project-Release.xcconfig */,
+				C4A4E458283A94C2001CA060 /* Project-Shared.xcconfig */,
+			);
+			path = Project;
+			sourceTree = "<group>";
+		};
+		C4A4E463283A9557001CA060 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C4A4E459283A94C2001CA060 /* Tests-iOS-Debug.xcconfig */,
+				C4A4E451283A94C2001CA060 /* Tests-iOS-Release.xcconfig */,
+				C4A4E457283A94C2001CA060 /* Tests-iOS-Shared.xcconfig */,
+				C4A4E45F283A94C2001CA060 /* Tests-macOS-Debug.xcconfig */,
+				C4A4E452283A94C2001CA060 /* Tests-macOS-Release.xcconfig */,
+				C4A4E454283A94C2001CA060 /* Tests-macOS-Shared.xcconfig */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
 		E209BBBD281EF4D300C9FB93 /* DevResources */ = {
 			isa = PBXGroup;
 			children = (
@@ -93,6 +168,7 @@
 		E25E251227C23E1D00A0CCDA = {
 			isa = PBXGroup;
 			children = (
+				C4A4E44D283A94C2001CA060 /* xcconfigs */,
 				E25E251727C23E1D00A0CCDA /* Shared */,
 				E25E255527C2406900A0CCDA /* iOS */,
 				E25E252627C23E1E00A0CCDA /* macOS */,
@@ -386,327 +462,84 @@
 /* Begin XCBuildConfiguration section */
 		E25E254627C23E1E00A0CCDA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4A4E45E283A94C2001CA060 /* Project-Debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
-				MTL_FAST_MATH = YES;
-				ONLY_ACTIVE_ARCH = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		E25E254727C23E1E00A0CCDA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4A4E453283A94C2001CA060 /* Project-Release.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
 			};
 			name = Release;
 		};
 		E25E254927C23E1E00A0CCDA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4A4E456283A94C2001CA060 /* Log-(iOS)-Debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = DevResources;
-				DEVELOPMENT_TEAM = VNN8LWX58P;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "iOS/iOS-Info.plist";
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.furryfiesta.Log;
-				PRODUCT_NAME = Log;
-				SDKROOT = iphoneos;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		E25E254A27C23E1E00A0CCDA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4A4E44E283A94C2001CA060 /* Log-(iOS)-Release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = DevResources;
-				DEVELOPMENT_TEAM = VNN8LWX58P;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "iOS/iOS-Info.plist";
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.furryfiesta.Log;
-				PRODUCT_NAME = Log;
-				SDKROOT = iphoneos;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		E25E254C27C23E1E00A0CCDA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4A4E45D283A94C2001CA060 /* Log-(macOS)-Debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = DevResources;
-				DEVELOPMENT_TEAM = VNN8LWX58P;
-				ENABLE_HARDENED_RUNTIME = YES;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "macOS/macOS-Info.plist";
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 12.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.furryfiesta.Log;
-				PRODUCT_NAME = Log;
-				SDKROOT = macosx;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
 		E25E254D27C23E1E00A0CCDA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4A4E45A283A94C2001CA060 /* Log-(macOS)-Release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = DevResources;
-				DEVELOPMENT_TEAM = VNN8LWX58P;
-				ENABLE_HARDENED_RUNTIME = YES;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "macOS/macOS-Info.plist";
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 12.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.furryfiesta.Log;
-				PRODUCT_NAME = Log;
-				SDKROOT = macosx;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
 		E25E254F27C23E1E00A0CCDA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4A4E459283A94C2001CA060 /* Tests-iOS-Debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = VNN8LWX58P;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.furryfiesta.Tests-iOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Log (iOS)";
 			};
 			name = Debug;
 		};
 		E25E255027C23E1E00A0CCDA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4A4E451283A94C2001CA060 /* Tests-iOS-Release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = VNN8LWX58P;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.furryfiesta.Tests-iOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Log (iOS)";
-				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		E25E255227C23E1E00A0CCDA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4A4E45F283A94C2001CA060 /* Tests-macOS-Debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = VNN8LWX58P;
-				GENERATE_INFOPLIST_FILE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 12.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.furryfiesta.Tests-macOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = "Log (macOS)";
 			};
 			name = Debug;
 		};
 		E25E255327C23E1E00A0CCDA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4A4E452283A94C2001CA060 /* Tests-macOS-Release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = VNN8LWX58P;
-				GENERATE_INFOPLIST_FILE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 12.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.furryfiesta.Tests-macOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = "Log (macOS)";
 			};
 			name = Release;
 		};
 		E25E255927C248BB00A0CCDA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4A4E450283A94C2001CA060 /* Lint-Debug.xcconfig */;
 			buildSettings = {
 			};
 			name = Debug;
 		};
 		E25E255A27C248BB00A0CCDA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4A4E45C283A94C2001CA060 /* Lint-Release.xcconfig */;
 			buildSettings = {
 			};
 			name = Release;
