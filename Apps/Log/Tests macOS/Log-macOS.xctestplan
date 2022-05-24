@@ -9,15 +9,6 @@
     }
   ],
   "defaultOptions" : {
-    "codeCoverage" : {
-      "targets" : [
-        {
-          "containerPath" : "container:Log.xcodeproj",
-          "identifier" : "E25E252427C23E1E00A0CCDA",
-          "name" : "Log (macOS)"
-        }
-      ]
-    },
     "targetForVariableExpansion" : {
       "containerPath" : "container:Log.xcodeproj",
       "identifier" : "E25E252427C23E1E00A0CCDA",
