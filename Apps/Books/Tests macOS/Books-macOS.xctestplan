@@ -1,0 +1,29 @@
+{
+  "configurations" : [
+    {
+      "id" : "A34DE0A1-31CA-42C6-A5A6-149AEEBB148F",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:Books.xcodeproj",
+      "identifier" : "E2227CA5283CC05E00204FFC",
+      "name" : "Books (macOS)"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:Books.xcodeproj",
+        "identifier" : "E2227CB8283CC05E00204FFC",
+        "name" : "Tests macOS"
+      }
+    }
+  ],
+  "version" : 1
+}

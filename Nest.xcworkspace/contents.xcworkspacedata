@@ -5,6 +5,9 @@
       location = "group:Apps"
       name = "Apps">
       <FileRef
+         location = "group:Books/Books.xcodeproj">
+      </FileRef>
+      <FileRef
          location = "group:Log/Log.xcodeproj">
       </FileRef>
    </Group>
