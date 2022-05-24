@@ -34,3 +34,26 @@ jobs:
 
       - name: Run Swiftlint
         run: mint run swiftlint lint --reporter github-actions-logging
+
+      - name: Select Xcode
+        run: sudo xcode-select -s /Applications/Xcode_13.4.app
+
+      - name: Run iOS Tests
+        run: |
+          xcodebuild \
+          -workspace Nest.xcworkspace \
+          -scheme 'Log (iOS)' \
+          -sdk iphonesimulator \
+          -destination 'platform=iOS Simulator,name=iPhone 13,OS=15.5' \
+          test \
+          | mint run xcbeautify
+
+      - name: Build macOS Tests
+        # Not running the macOS tests as they require signing. Without credentials it would throw the following error:
+        # ❌ error: No signing certificate "Mac Development" found: No "Mac Development" signing certificate matching team ID "45WDCQN3U5" with a private key was found. (in target 'Tests macOS' from project 'Log')
+        run: |
+          xcodebuild \
+          -workspace Nest.xcworkspace \
+          -scheme 'Log (macOS)' \
+          build-for-testing \
+          | mint run xcbeautify
