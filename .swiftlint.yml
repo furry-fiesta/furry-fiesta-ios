@@ -105,3 +105,5 @@ nesting:
     error: 2
 trailing_comma:
   mandatory_comma: true
+type_name:
+  allowed_symbols: "_"
