@@ -46,7 +46,15 @@ opt_in_rules:
   # This should be opted in once we're in a shape where we can accept open source contributions
   # - missing_docs
   - modifier_order
-  - multiline_arguments
+  # Threw a warning for the following, which is quite common in SwiftUI:
+  #
+  # Picker(selection: $content) {
+  #     ForEach(Content.allCases) { $0.title }
+  # } label: {
+  #     Text("")
+  # }
+  #
+  # - multiline_arguments
   - multiline_arguments_brackets
   - multiline_literal_brackets
   - multiline_parameters
